@@ -1,4 +1,4 @@
 import VerifiedAgora.tagger
 
 @[target]
-theorem test_target : 1 = 1 := by rfl
+theorem test9 : 9=9 := by sorry
