@@ -28,6 +28,7 @@ import Library.QuickProfitTargets2
 import Library.QuickTest_1764173474
 import Library.SellerTheorems
 import Library.SimpleTargets
+import Library.SolvedTheorems
 import Library.UnsolvedBounties877
 import Library.UnsolvedTest
 import Library.UnssolvedTest
