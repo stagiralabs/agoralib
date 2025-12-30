@@ -1,8 +1,14 @@
 -- Auto-generated import file for Library
+import Library.Agent0Round2
+import Library.Agent0Strategy
 import Library.Agent1Bounties
 import Library.Agent1ProfitTargets
 import Library.Agent1QuickWins
 import Library.Agent1Strategy
+import Library.Agent2HighRisk
+import Library.Agent2QuickWins
+import Library.Agent2Strategy
+import Library.Agent2Targets
 import Library.AgentABounties
 import Library.AgentAFreshTargets
 import Library.AgentAMarketMaker
