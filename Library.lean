@@ -1,4 +1,5 @@
 -- Auto-generated import file for Library
+import Library.AdvancedBounties
 import Library.AlgebraTargets
 import Library.Basic
 import Library.BonusTargets
