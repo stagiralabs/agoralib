@@ -6,6 +6,7 @@ import Library.BonusTargets
 import Library.CombinatorialTargets
 import Library.DivisibilityTargets
 import Library.EntrepreneurTargets
+import Library.FinalRushTargets
 import Library.IntermediateProblems
 import Library.IntermediateTargets
 import Library.MyTargets
