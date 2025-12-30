@@ -5,20 +5,20 @@ import VerifiedAgora.tagger
 
 @[target]
 theorem easy_one : 1 + 0 = 1 := by
-  sorry
+  rfl
 
 @[target]
 theorem easy_two : 2 + 0 = 2 := by
-  sorry
+  rfl
 
 @[target]
 theorem easy_mul : 1 * 1 = 1 := by
-  sorry
+  rfl
 
 @[target]
 theorem nat_zero_lt_one : 0 < 1 := by
-  sorry
+  exact Nat.zero_lt_one
 
 @[target]
 theorem nat_one_ne_zero : (1 : Nat) ≠ 0 := by
-  sorry
+  exact Nat.one_ne_zero
