@@ -6,24 +6,25 @@ import VerifiedAgora.tagger
 -- Easy warmup targets (quick wins)
 @[target]
 theorem nat_succ_ne_self (n : Nat) : n.succ ≠ n := by
-  sorry
+  exact Nat.succ_ne_self n
 
 @[target]
 theorem nat_add_cancel_left (a b c : Nat) : a + b = a + c → b = c := by
-  sorry
+  intro h
+  exact Nat.add_left_cancel h
 
 -- Moderate algebra targets
 @[target]
 theorem nat_mul_left_distrib (a b c : Nat) : a * (b + c) = a * b + a * c := by
-  sorry
+  exact Nat.mul_add a b c
 
 @[target]
 theorem nat_pow_add_nat (a m n : Nat) : a ^ (m + n) = a ^ m * a ^ n := by
-  sorry
+  exact Nat.pow_add a m n
 
 @[target]
 theorem nat_add_sub_cancel (a b : Nat) : (a + b) - b = a := by
-  sorry
+  exact Nat.add_sub_cancel a b
 
 -- Number theory targets
 @[target]
@@ -41,16 +42,16 @@ theorem nat_mul_dvd_mul (a b c d : Nat) (h1 : a ∣ b) (h2 : c ∣ d) : (a * c) 
 -- More challenging targets
 @[target]
 theorem nat_pow_mul (a m n : Nat) : a ^ (m * n) = (a ^ m) ^ n := by
-  sorry
+  exact Nat.pow_mul a m n
 
 @[target]
 theorem nat_gcd_comm (a b : Nat) : Nat.gcd a b = Nat.gcd b a := by
-  sorry
+  exact Nat.gcd_comm a b
 
 @[target]
 theorem nat_gcd_zero_left (n : Nat) : Nat.gcd 0 n = n := by
-  sorry
+  exact Nat.gcd_zero_left n
 
 @[target]
 theorem nat_lcm_comm (a b : Nat) : Nat.lcm a b = Nat.lcm b a := by
-  sorry
+  exact Nat.lcm_comm a b
